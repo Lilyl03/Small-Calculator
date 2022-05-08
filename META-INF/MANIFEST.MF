@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.example.drafts.MainWindow
+Class-Path: /home/lluser/IdeaProjects/drafts/src/main/java/com/example
+

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="calculatior:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/calculatior_jar</output-path>
+    <root id="archive" name="drafts.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/16/d8334d505d5eb64400ae57f989c3db9dd47dcee3/javafx-controls-16.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+    </root>
+  </artifact>
+</component>
