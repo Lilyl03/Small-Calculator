@@ -1,14 +1,40 @@
 package com.example.drafts;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
+
 
 public class MainController {
+    @FXML private Pane titlePane;
+
+    @FXML private ImageView btnClose;
+
+    private double x, y;
+
+    public void init(Stage stage){
+        titlePane.setOnMousePressed(mouseEvent ->{
+            x = mouseEvent.getSceneX();
+            y= mouseEvent.getSceneY();
+        } );
+        titlePane.setOnMouseDragged(mouseEvent -> {
+            stage.setX(mouseEvent.getSceneX()-x);
+            stage.setY(mouseEvent.getSceneY()-y);
+        });
+
+        btnClose.setOnMouseClicked(mouseEvent -> stage.close());
+    }
     @FXML
-    private Label welcomeText;
+    void onNumberClicked(MouseEvent event) {
+
+    }
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    void onSymbolClicked(MouseEvent event) {
+
     }
+
+
 }

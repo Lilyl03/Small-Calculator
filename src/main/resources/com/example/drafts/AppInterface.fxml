@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="350.0" styleClass="root" stylesheets="@AppInterfaceStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.drafts.MainController">
+<AnchorPane prefHeight="500.0" prefWidth="350.0" styleClass="root" stylesheets="@AppInterfaceStyle.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.drafts.MainController">
    <children>
       <Pane layoutX="22.0" layoutY="34.0" prefHeight="500.0" prefWidth="400.0" styleClass="root" stylesheets="@AppInterfaceStyle.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -13,159 +15,169 @@
                <children>
                   <Pane layoutX="23.0" layoutY="27.0" prefHeight="86.0" prefWidth="275.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="86.0" prefWidth="275.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="0.00">
+                        <Label alignment="CENTER_RIGHT" lineSpacing="3.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="86.0" prefWidth="275.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="0.00 " textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="12.0" layoutY="145.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="7">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="7" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="88.0" layoutY="145.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="8">
+                        <Label alignment="CENTER" layoutY="-1.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="8" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="165.0" layoutY="145.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="9">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="9" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="246.0" layoutY="145.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="+">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="+" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="12.0" layoutY="222.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="4">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="4" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="88.0" layoutY="222.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="5">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="5" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="165.0" layoutY="222.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="6">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="6" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="246.0" layoutY="222.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="-">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="-" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="11.0" layoutY="296.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="1">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="1" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="87.0" layoutY="296.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="2">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="2" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="164.0" layoutY="296.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="3">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="3" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="245.0" layoutY="296.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="*">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="*" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="10.0" layoutY="368.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="C">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="C" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="86.0" layoutY="368.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="0">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="0" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="163.0" layoutY="368.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="=">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="=" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                   <Pane layoutX="244.0" layoutY="368.0" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css">
                      <children>
-                        <TextField alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="/">
+                        <Label alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="68.0" prefWidth="65.0" styleClass="highlights" stylesheets="@AppInterfaceStyle.css" text="/" textFill="WHITE">
                            <font>
                               <Font size="24.0" />
                            </font>
-                        </TextField>
+                        </Label>
                      </children>
                   </Pane>
                </children>
             </Pane>
+            <Pane fx:id="titlePane" layoutX="33.0" layoutY="2.0" prefHeight="24.0" prefWidth="265.0">
+               <children>
+                  <Label layoutY="4.0" text="Calculator" textFill="WHITE" />
+               </children>
+            </Pane>
+            <ImageView fx:id="btnClose" fitHeight="15.0" fitWidth="15.0" layoutX="298.0" layoutY="7.0" preserveRatio="true">
+               <image>
+                  <Image url="@icons/index.jpeg" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
    </children>

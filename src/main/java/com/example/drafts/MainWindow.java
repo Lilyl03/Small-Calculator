@@ -6,8 +6,8 @@ import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
 import java.io.IOException;
+
 
 public class MainWindow extends Application {
     @Override
@@ -17,8 +17,9 @@ public class MainWindow extends Application {
         scene.setFill(Color.TRANSPARENT);
         stage.setResizable(false);
         stage.initStyle(StageStyle.TRANSPARENT);
-        stage.setTitle("Hello!");
+        stage.setTitle("Calculator");
         stage.setScene(scene);
+        ((MainController)fxmlLoader.getController()).init(stage);
         stage.show();
     }
 
